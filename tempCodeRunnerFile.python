@@ -1,0 +1,9 @@
+# Online Python-3 Compiler (Interpreter)
+t=int(input())
+for i in range(0,t):
+    x=int(input())
+    n=str(input())
+    if(n[0]=='9'):
+        print(int("1"*(x+1))-int(n))
+    else:
+        print(int("9"*(x))-int(n))
